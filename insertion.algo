@@ -1,0 +1,15 @@
+ALGORITHM insertion
+VAR
+    j ; i ; T ; n : INTEGER
+BEGIN
+    FOR i FROM 2 TO n DO
+        tmp= t[i]
+        j = i-1 
+    END_FOR
+    WHILE (j>=1 && t[j]>tmp) DO
+    // DECALAGE
+        t[j+1]=t[j]
+        j=j-1
+    END_WHILE
+    T[J+1]=tmp 
+END
